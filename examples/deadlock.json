@@ -1,0 +1,12 @@
+{
+  "processes": ["P1", "P2"],
+  "resources": ["R1", "R2"],
+  "allocation": {
+    "R1": "P1",
+    "R2": "P2"
+  },
+  "requests": {
+    "P1": ["R2"],
+    "P2": ["R1"]
+  }
+}
